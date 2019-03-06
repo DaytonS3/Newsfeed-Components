@@ -10,3 +10,9 @@ const menu = document.querySelector('.menu');
 const menuButton = document.querySelector('.menu-button');
 // Using your menuButton reference, add a click handler that calls toggleMenu
 menuButton.addEventListener('click', (e) => toggleMenu());
+
+
+const navI= document.querySelector("li");
+navI.addEventListener('click', function (e){
+  navI.classList.toggle('large')
+})

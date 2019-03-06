@@ -64,6 +64,9 @@
 .menu--open {
   display: block;
 }
+.large {
+  transform: scale(1.2);
+}
 .articles {
   margin-top: 95px;
 }
@@ -104,6 +107,9 @@
 }
 .article-open {
   height: 400px;
+}
+.large {
+  color: red;
 }
 html,
 body {
