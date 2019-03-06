@@ -13,11 +13,7 @@ class Article {
     // Set a click handler on the expandButton reference, calling the expandArticle method.
     this.expandButton.addEventListener('click',(e) => this.expandArticle(e))
       this.expandArticle()
-
-    const menu = document.querySelector("h2");
-    menu.addEventListener('mouseover', function (e){
-    menu.classList.toggle('large')
-  })
+     
 
   }
 
@@ -43,4 +39,4 @@ articles.forEach(function(a){
 
 
 
-
+ 
